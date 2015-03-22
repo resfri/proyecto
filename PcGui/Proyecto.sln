@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCGui", "WpfApplication1\PCGui.csproj", "{E0E89D3A-0D32-471B-902D-EED645CB983B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{AC1D73B3-7DDA-4139-AC72-95B2A958F45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainCore", "MainCore\MainCore.csproj", "{A9148B50-3FB3-4D01-AE12-3F75EFCA8857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0E89D3A-0D32-471B-902D-EED645CB983B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E89D3A-0D32-471B-902D-EED645CB983B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E89D3A-0D32-471B-902D-EED645CB983B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E89D3A-0D32-471B-902D-EED645CB983B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9148B50-3FB3-4D01-AE12-3F75EFCA8857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9148B50-3FB3-4D01-AE12-3F75EFCA8857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9148B50-3FB3-4D01-AE12-3F75EFCA8857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9148B50-3FB3-4D01-AE12-3F75EFCA8857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9148B50-3FB3-4D01-AE12-3F75EFCA8857} = {AC1D73B3-7DDA-4139-AC72-95B2A958F45F}
+	EndGlobalSection
+EndGlobal
